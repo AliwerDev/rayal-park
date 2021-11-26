@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="icon" type="png" href="images/cards (3).png">
+    <title>Rayal Park</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <img src="images/logo.png" alt="" class="logo">
+            <nav id="nav">
+                <a href="#">Home</a>
+                <a href="#">Features</a>
+                <a href="#">Gallary</a>
+                <a href="#">Testimonials </a>
+                <button class="btn btn-primary">Book now</button>
+            </nav>
+            <button class="btn btn-primary">Book now</button>
+            <i onclick="show()" class="fas text-dark fa-bars bar"></i>
+            <i onclick="hide()" class="fas opacity fixsed text-danger times fa-times"></i>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="py-5 my-5 col-md-6 .col-sm-8">
+                    <p class="mini-title">Serenity</p>
+                    <h1 class="display-4 fw-bold">Stay with us feel like <span class="text-primary">home</span>.</h1>
+                    <p class="text-secondary">Pet-friendly hotels are becoming increasingly popular; appealing to travellers who can’t bear to be parted.</p>
+                    <button class="btn btn-primary">Read more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="video">
+        <div class="container">
+            <div class="dr-filter">
+                <div class="row w-100 m-0">
+                    <div class="col-lg-7">
+                        <div class="row m-0">
+                            <div class="col-3">
+                                <h3>Cheek in</h3>
+                                <p class="text-secondary">10 Feb 2021</p>
+                            </div>
+                            <div class="col-3">
+                                <h3>Cheek out</h3>
+                                <p class="text-secondary">10 Feb 2021</p>
+                            </div>
+                            <div class="col-3">
+                                <h3>Person</h3>
+                                <p class="text-secondary">10 Feb 2021</p>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-primary">Find room</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center py-sm-4 py-3 py-md-5"  >
+                <div class="col-md-6">
+                    <div class="ifreme-box">
+                        <iframe height="300" src="https://www.youtube.com/embed/6XfgNbmW1Xk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6 ps-md-5">
+                    <p class="mini-title">dream holidays</p>
+                    <h3>Enjoy unforgettable experiences in dream hotels.</h3>
+                    <button class="btn btn-primary">View more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cards">
+        <div class="container text-center py-5">
+            <div class="row justify-content-center py-4">
+                <div class="col-md-8">
+                    <h2>Why you choose us!</h2>
+                    <p class="text-secondary">Naturally, it’s becoming even more important for hotel and hospitality brands to stand out from the crowd. Content marketing remains a key way for hotels to do this.</p>
+                </div>
+            </div>
+            <div class="row py-3">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card border-0">
+                        <img class="img-fluid w-25 mx-auto mb-2" src="images/cards (1).png" alt="">
+                        <h4>Easy booking </h4>
+                        <p class="text-secondary">The booking process should include minimal steps.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card border-0">
+                        <img class="img-fluid w-25 mx-auto mb-2" src="images/cards (2).png" alt="">
+                        <h4>Easy booking </h4>
+                        <p class="text-secondary">The booking process should include minimal steps.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card border-0">
+                        <img class="img-fluid w-25 mx-auto mb-2" src="images/cards (3).png" alt="">
+                        <h4>Easy booking </h4>
+                        <p class="text-secondary">The booking process should include minimal steps.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card border-0">
+                        <img class="img-fluid w-25 mx-auto mb-2" src="images/cards (4).png" alt="">
+                        <h4>Easy booking </h4>
+                        <p class="text-secondary">The booking process should include minimal steps.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="boxes">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="content pe-5">
+                       <h1>About hotel gallery</h1>
+                       <p class="text-secondary">While some of these examples are real – actually offering guests a stay in the locations advertised – it’s mainly just a way.</p>
+                       <button class="btn btn-primary">View more</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card border-0 position-relative">
+                        <img class="img-fluid card-img w-100" src="images/boxes (1).png" alt="">
+                        <div class="info">
+                            <div class="row">
+                                <div class="col-6">
+                                    <p>Lux: Room</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="text-secondary">260 night</p>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary">Book now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card border-0 position-relative">
+                        <img class="img-fluid card-img w-100" src="images/boxes (2).png" alt="">
+                        <div class="info">
+                            <div class="row">
+                                <div class="col-6">
+                                    <p>Lux: Room</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="text-secondary">260 night</p>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary">Book now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card border-0 position-relative">
+                        <img class="img-fluid card-img w-100" src="images/boxes (3).png" alt="">
+                        <div class="info">
+                            <div class="row">
+                                <div class="col-6">
+                                    <p>Lux: Room</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="text-secondary">260 night</p>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary">Book now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card border-0 position-relative">
+                        <img class="img-fluid card-img w-100" src="images/boxes (4).png" alt="">
+                        <div class="info">
+                            <div class="row">
+                                <div class="col-6">
+                                    <p>Lux: Room</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="text-secondary">260 night</p>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary">Book now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card border-0 position-relative">
+                        <img class="img-fluid card-img w-100" src="images/boxes (5).png" alt="">
+                        <div class="info">
+                            <div class="row">
+                                <div class="col-6">
+                                    <p>Lux: Room</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="text-secondary">260 night</p>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary">Book now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cilent" class="py-5">
+        <div class="container">
+            <div class="py-4 d-flex justify-content-between align-items-center">
+                <h1>What our client say</h1>
+                <button class="btn btn-primary">View all</button>
+            </div>
+            <div class="swiper mySwiper py-4">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card border-0">
+                            <img class="img-fluid w-50 mx-auto" src="images/cilent (1).png" alt="">
+                            <i class="fas fa-quote-left my-1 quote me-auto txt-secondary"></i>
+                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit Ultrices.</p>
+                            <h4>David lee</h4>
+                            <a href="#">davidlee@</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0">
+                            <img class="img-fluid w-50 mx-auto" src="images/cilent (2).png" alt="">
+                            <i class="fas fa-quote-left my-1 quote me-auto txt-secondary"></i>
+                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit Ultrices.</p>
+                            <h4>Ravi shankor</h4>
+                            <a href="#">davidlee@</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0">
+                            <img class="img-fluid w-50 mx-auto" src="images/cilent (3).png" alt="">
+                            <i class="fas fa-quote-left my-1 quote me-auto txt-secondary"></i>
+                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit Ultrices.</p>
+                            <h4>Thomas lew</h4>
+                            <a href="#">davidlee@</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0">
+                            <img class="img-fluid w-50 mx-auto" src="images/cilent (3).png" alt="">
+                            <i class="fas fa-quote-left my-1 quote me-auto txt-secondary"></i>
+                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit Ultrices.</p>
+                            <h4>Thomas lew</h4>
+                            <a href="#">davidlee@</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0">
+                            <img class="img-fluid w-50 mx-auto" src="images/cilent (3).png" alt="">
+                            <i class="fas fa-quote-left my-1 quote me-auto txt-secondary"></i>
+                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit Ultrices.</p>
+                            <h4>Ravi shankor</h4>
+                            <a href="#">davidlee@</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0">
+                            <img class="img-fluid w-50 mx-auto" src="images/cilent (1).png" alt="">
+                            <i class="fas fa-quote-left my-1 quote me-auto txt-secondary"></i>
+                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit Ultrices.</p>
+                            <h4>Thomas lew</h4>
+                            <a href="#">davidlee@</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="subscrib" class="mb-5">
+        <div class="container text-center">
+            <p class="mini-title text-dark text-bold">STAY IN TOUCH</p>
+            <h4 class="py-4">Join our email. First to know about specials,events and more!</h4>
+            <div class="row justify-content-center pb-4">
+                <div class="col-md-9 col-lg-7">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Enter your email address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-primary px-5" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row py-5 justify-content-sm-center text-center text-sm-start" >
+                <div class="col-md-3 col-sm-6 order-1 order-sm-1">
+                    <img class="logo ms-3 " src="images/logo.png" alt="">
+                    <p class=" ms-3 text-secondry mb-3">Travel deals on hotels, flights, vacation packages.</p>
+                    <a href="#" class=" ms-3 text-secondry">@shovasatkhira88.com</a>
+                    <div class=" ms-3 icons py-4 d-flex justify-content-between">
+                        <i class="text-primary fab fa-facebook    "></i>
+                        <i class="text-danger fab fa-instagram    "></i>
+                        <i class="text-info fab fa-twitter    "></i>
+                        <i class="text-danger fab fa-chrome    "></i>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-3 col-6 order-3 order-sm-2">
+                    <nav class="d-flex flex-column ">
+                        <h6 class="ps-4 mt-5">Home</h6>
+                        <a class="my-2 ps-4 text-secondary" href="#">Accessibility</a>
+                        <a class="my-2 ps-4 text-secondary" href="#">Lertifiotion</a>
+                        <a class="my-2 ps-4 text-secondary" href="#">Knowledge</a>
+                    </nav>
+                </div>
+                <div class="col-md-2 col-sm-3 col-6 order-4 order-sm-3">
+                    <nav class="d-flex flex-column ">
+                        <h6 class="ps-4 mt-5">Pages</h6>
+                        <a class="my-2 ps-4 text-secondary" href="#">Blogs</a>
+                        <a class="my-2 ps-4 text-secondary" href="#">Careers</a>
+                        <a class="my-2 ps-4 text-secondary" href="#">Communing</a>
+                    </nav>
+                </div>
+                <div class="col-md-5 col-sm-10 order-2 order-sm-4">
+                    <div class="d-flex flex-column ">
+                        <h6 class="ps-4 mt-5">SUBSCRIBE</h6>
+                        <div class="input-group mb-3">
+                            <input type="text" class="ms-3 mt-4 form-control" placeholder="Enter your email address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-primary px-4 mt-4" type="button" id="button-addon2">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <p class="text-secondary">&copy; Copyright by <a target="_blank" href="https://telegram.me/aliwerdev" class="text-info">@aliwerdev</a></p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        breakpoints: {
+          771: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          991: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        },
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        const nav = document.querySelector("#nav");
+        const times = document.querySelector(".times");
+
+        function show(){
+            nav.style.right=("0");
+            times.classList.remove("opacity");
+        }
+        function hide(){
+            nav.style.right = ("-250px");
+            times.classList.add("opacity");
+        }
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+</body>
+</html>
