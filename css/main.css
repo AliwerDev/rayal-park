@@ -86,7 +86,7 @@ header .container nav button {
   background-image: url("../images/bg-home.png");
   background-position: bottom right;
   background-size: cover;
-  width: 100%;
+  width: 99.999999999%;
 }
 #home .col-md-5 {
   align-items: flex-start;
